@@ -66,8 +66,8 @@ def GetInfo(rdm):
     '''
 
     dic = {'bookname':0,'imgurl':0,'author':0,'translater':0,'publisher':0,'rating_nums':0,'date':0,'price':0,'rating_people':0}
-    dict_json = {i: 0 for i in range(0, 24)}
-    for i in range(0,24):
+    dict_json = {i: 0 for i in range(0, 25)}
+    for i in range(0,25):
         dic['bookname'] = bookname[i]
         dic['imgurl'] = imgurl[i]
         dic['author'] = author[i]
